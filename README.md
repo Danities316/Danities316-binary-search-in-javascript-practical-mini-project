@@ -42,6 +42,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - The phonebook icon used in the README is from [Flaticon](https://www.flaticon.com/)
 
 ## Contact
-If you have any questions or suggestions regarding the Binary Search Phonebook project, please feel free to contact us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions regarding the Binary Search Phonebook project, please feel free to contact us at [luka316daniel@gmail.com](mailto:luka316daniel@gmail.com).
 
 Enjoy searching your contacts with the power of binary search!

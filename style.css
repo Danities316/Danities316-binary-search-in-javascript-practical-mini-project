@@ -1,89 +1,173 @@
+* {
+  box-sizing: border-box;
+}
 
 html {
-	box-sizing: border-box;
-	background: #ff42aa;
-	font-family: 'helvetica neue';
-	font-size: 20px;
-	font-weight: 200;
-  }
-  
-  *, *:before, *:after {
-	box-sizing: inherit;
-  }
-  
-  h1 {
-    text-align: center;
-    color: white;
-  }
+  box-sizing: border-box;
+  background: #ff42aa;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+}
 
-    
-    .search-form {
-    max-width: 400px;
-    margin: 50px auto;
-    }
-    .text{
-    color: white;
-    display: flex;
-     justify-content: center;
-    margin-bottom: -48px;
-    }
-    
-    input.searchInput {
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.search-form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+.text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -48px;
+}
+
+#searchInput {
+  margin: 0;
+  text-align: center;
+  outline: 0;
+  border: 10px solid #f7f7f7;
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+  border-radius: 5px;
+  font-size: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+#generateTable {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #1b0022;
+  background-size: 24px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 480px;
+  margin-top: 40px;
+}
+#resultsContainer {
+  margin-top: 20px;
+  text-align: center;
+  border: green;
+  border-width: 2px;
+  color: white;
+  font-size: 24px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #1b0022;
+  background-size: 24px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.btn:hover {
+  color: blue;
+}
+.phone-details {
+  font-size: 26px;
+  text-align: center;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  padding-right: 15px;
+  /*margin-top: 5px;*/
+  color: lightgray;
+  height: 45px;
+  font-size: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+span {
+  color: white;
+  margin-left: 420px;
+  margin-top: -10px;
+  font-size: 24px;
+  top: 0;
+}
+#data-table {
+  display: none;
+  color: white;
+  font-size: 18px;
+  border: green;
+}
+button {
+  font-size: 28px;
+  margin-left: 620px;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  #searchInput {
     margin: 0;
     text-align: center;
     outline: 0;
-    border: 10px solid #F7F7F7;
-    width: 40%;
+    border: 10px solid #f7f7f7;
+    width: 60%;
     padding: 20px;
     margin: auto;
     display: block;
     position: relative;
-    top: 10px;
+    top: 20px;
     z-index: 2;
     border-radius: 5px;
     font-size: 40px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
-    }
-  
-
-  #resultsContainer {
-    margin-top: 20px;
   }
-  .btn{
+  button {
+    font-size: 24px;
+    margin-left: 230px;
+    margin-top: 30px;
+  }
+  #generateTable {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     background-color: #1b0022;
     background-size: 24px;
     color: white;
     padding: 15px;
     text-align: center;
-    }
-   
-    .btn:hover{
-    color: blue;
-    }
-    .phone-details{
-    font-size: 26px;
-    text-align: center;
+    margin-left: 110px;
+    margin-top: 40px;
+  }
+  span {
     color: white;
-    }
-  
-    nav ul{
-      display: flex;
-      padding-right: 15px; 
-      /*margin-top: 5px;*/
-      color: lightgray;
-      height: 45px;
-      font-size: 25px;
-      flex-direction: row;
-      justify-content: space-between;
-      list-style: none;
-    }
-  
-    button{
-      margin-left: 280px;
-      margin-top: 30px;
-    }
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 24px;
+    top: 0;
+  }
+  p.success {
+    font-size: 24px;
+    font-weight: 400;
+    color: red;
+  }
+}

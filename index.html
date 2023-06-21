@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Phonebook Search</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-  <nav>
-		<ul>
-			<li><a>Home</a></li>
-			<li><a>About</a></li>
-			<li><a>Contact Us</a></li>
-		</ul>
-	</nav>
-  <h1>Phonebook Search</h1>
-  <input type="text" class="searchInput" placeholder="Enter a name">
-  <button id="searchButton" class="btn">Search</button>
-  <div id="resultsContainer"></div>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phonebook Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Contact Us</a></li>
+      </ul>
+    </nav>
+    <h1>Phonebook Search</h1>
+    <span>Implementing Binary search Using phone book search</span>
+    <input type="text" id="searchInput" placeholder="Enter a name" />
+    <button id="searchButton" class="btn">Search</button>
+    <div id="resultsContainer"></div>
 
-  <script src="script.js"></script>
-</body>
+    <div id="data-table">
+      <table id="html-data-table">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Gender</th>
+        </tr>
+      </table>
+    </div>
+    <input
+      type="button"
+      value="Click here to see contacts to search for"
+      id="generateTable"
+    />
+
+    <script src="script.js"></script>
+  </body>
 </html>
