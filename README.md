@@ -1,6 +1,6 @@
 # Binary Search Phonebook
 
-[Click here for Live Demo](https://binary-search-in-javascript-practical.onrender.com/)
+<a href="https://binary-search-in-javascript-practical.onrender.com/" target="_blank">Click here for Live Demo</a>
 
 ![Binary Search Phonebook](https://github.com/Danities316/Danities316-binary-search-in-javascript-practical-mini-project/assets/12422620/13a0a9c2-ed98-479a-94de-384b7c88c113)
 
