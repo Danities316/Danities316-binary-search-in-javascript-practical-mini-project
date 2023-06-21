@@ -24,6 +24,7 @@ Binary Search Phonebook is a JavaScript application that demonstrates the implem
 
 ## Screenshots
 ![Showing Contacts]](https://github.com/Danities316/Danities316-binary-search-in-javascript-practical-mini-project/assets/12422620/ea5ffe6c-81c8-4c6e-8911-9da146a90881)
+
 ![Search Result](https://github.com/Danities316/Danities316-binary-search-in-javascript-practical-mini-project/assets/12422620/dbaa7314-4f90-4b26-8f7e-e2c7f9df9225)
 
 ## Technologies Used
