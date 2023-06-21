@@ -1,5 +1,7 @@
 # Binary Search Phonebook
 
+Live Demo(https://binary-search-in-javascript-practical.onrender.com/)
+
 ![Binary Search Phonebook](https://github.com/Danities316/Danities316-binary-search-in-javascript-practical-mini-project/assets/12422620/13a0a9c2-ed98-479a-94de-384b7c88c113)
 
 Binary Search Phonebook is a JavaScript application that demonstrates the implementation of the binary search algorithm for efficient contact search. With this application, users can quickly search for contacts by name, leveraging the power of binary search.
